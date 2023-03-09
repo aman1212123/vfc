@@ -1,0 +1,48 @@
+ nav{
+   display: flex;  background-color: chocolate;
+}
+
+.mini{
+  display: flex; margin: auto;
+}
+ nav ul {
+  display: flex; list-style-type: none; justify-content: space-between; 
+  
+ }
+ nav img{
+  width: 4%;
+ }
+ nav ul a{
+text-decoration: none; margin: 10px;  
+ }
+
+ nav ul a:hover{
+background-color: brown;
+ }
+
+ nav .mini ul li{
+  position: relative; 
+ }
+
+ nav .mini ul li ul{
+  position: absolute; display: initial; top: 100%; right: 0;
+  opacity: 0; visibility: hidden; transition: 1.2s;
+ }
+
+ nav .mini ul li:hover ul{
+   opacity: 1; visibility: visible; top: 200%;
+ } 
+ .btn{
+  border-radius: 25% 25%  25% 25% / 50% 50%  50% 50% ;outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+

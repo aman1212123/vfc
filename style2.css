@@ -1,0 +1,16 @@
+nav{
+  background: yellowgreen; display: flex;   
+}
+ul{
+  display: flex; justify-content: space-between; margin: 20px; list-style-type: none;
+}
+
+a{
+   font-size: 13px; margin: 15px;  text-decoration: none; list-style-type: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+.min{
+  display: flex; background-color: chartreuse;
+}

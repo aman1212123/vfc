@@ -1,0 +1,44 @@
+img{
+  width: 50px;
+}
+
+
+
+.mini{
+  display: flex; margin-left: 20px; 
+}
+nav .mini ul{
+  display: flex; list-style-type: none; 
+}
+nav .mini ul a{
+  margin: 20px; text-decoration: none; font-size: 17px;
+}
+
+nav .mini ul a:hover{
+  color: orangered;
+}
+
+
+nav .mini ul li{
+ position: relative;
+}
+
+nav .mini ul li ul{
+  display: initial; position: absolute; top: 100%; right: 0;
+  visibility: hidden;
+}
+
+nav .mini ul li:hover ul{
+  visibility: visible;
+}
+
+.e{
+  display: flex; outline: none;
+}
+.a{
+  outline: ;
+}
+
+
+
+

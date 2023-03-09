@@ -1,0 +1,36 @@
+nav{
+  background-color:#ef1d79 ;
+}
+nav .mini{
+  display: flex ;
+}
+nav .mini ul{
+  display: flex; list-style-type: none;
+}
+
+nav .mini ul a{
+  margin: 10px; text-decoration: none; 
+  color: rgba(51, 7, 118, 0.849);
+}
+
+nav .mini ul a:hover{
+  color: rgba(95, 60, 15, 0.545);
+}
+
+nav .mini ul li{
+  position: relative;
+}
+nav .mini ul li ul{
+ position: absolute;  display: initial; visibility: hidden;
+ transition: 1s; top: 100%; right: 0; opacity: 0;
+ background: #2ab80a; border: 1px solid yellowgreen;
+ 
+}
+
+nav .mini ul li:hover ul{
+  visibility: visible; top: 200%; opacity: 1;
+}
+
+.b{
+ margin: auto;
+}
